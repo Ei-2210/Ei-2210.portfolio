@@ -1,0 +1,53 @@
+/* 全ての要素を対象とする */
+*, *::before, *::after {
+    margin: 0; /* 外部余白のリセット */
+    padding: 0; /* 内部余白のリセット */
+    box-sizing: border-box; /* widthやheightなどのサイズ指定をボーダーを含んだサイズで指定できるように変更 */
+  }
+  
+    /* Webページ全体の設定を記載 */
+:root { /* htmlを指定した場合と同じような意味合いです */
+    /* 書体の設定 */
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    /* 日本語の字詰を自動カーニングするように設定 */
+    font-feature-settings: "palt";
+    /* 標準の文字サイズを指定 */
+    font-size: 16pt;
+  }
+
+
+
+  body{
+    /* 背景色指定 */
+ background-color:#cdf3f8;
+ color:#cccccc;
+ }
+
+ div.imgt {
+    position:absolute;
+    top:1em;
+    left:20em;
+    padding: 0px;
+ }
+ p.title {
+     font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+     color: #4e7ca1;
+     font-size:4em;
+     line-height:80%;
+     margin: 0px;
+ }
+
+ div.menu {
+     position:absolute;
+     top:4em;
+     left:3em;
+     border:1px solid;
+     padding:10px;
+     font-size: 2em;
+     line-height:120%;
+     font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+     color:#0fdd79;
+     background-color:rgb(230, 98, 98);
+ }
+
+/*スライドショー*/
