@@ -25,10 +25,15 @@
 
  div.imgt {
     position:absolute;
-    top:1em;
+    top:4em;
     left:20em;
     padding: 0px;
  }
+ img.example {
+  margin: 20px;
+  }
+
+
  p.title {
      font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
      color: #4e7ca1;
@@ -37,10 +42,17 @@
      margin: 0px;
  }
 
+ /*画像*/
+ div.gaz{
+  position:absolute;
+  top: 12em;
+  left: 19em;
+}
+
  div.menu {
      position:absolute;
-     top:4em;
-     left:3em;
+     top:6em;
+     left:2em;
      border:1px solid;
      padding:10px;
      font-size: 2em;
@@ -50,4 +62,122 @@
      background-color:rgb(230, 98, 98);
  }
 
-/*スライドショー*/
+/*リンク色*/
+
+.a1 {
+  text-decoration: none;
+}
+.a1,
+.a1:visited {
+    color: rgb(180, 180, 180)
+}
+
+/*スライド*/
+
+div.slide_show_slide_in2_link_6{
+  position:absolute;
+  top: 12em;
+  left: 19em;
+
+}
+.slide_show_slide_in2_link_6{
+	position: relative;
+	overflow: hidden;
+	width: 65%;
+}
+.slide_show_slide_in2_link_6:before{
+	content: "";
+	display: block;
+	padding-top: 66%;
+}
+.slide_show_slide_in2_link_6_1{
+	position: absolute;
+  
+	width: 100%;
+	top: 0;
+	animation: slide_show_slide_in2_link_6 36s infinite;
+}
+.slide_show_slide_in2_link_6_2{
+	position: absolute;
+	width: 100%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(1){
+	left: 0%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(2){
+	left: 100%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(3){
+	left: 200%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(4){
+	left: 300%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(5){
+	left: 400%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(6){
+	left: 500%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(7){
+	left: 600%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(8){
+	left: 700%;
+}
+.slide_show_slide_in2_link_6_2 img{
+	width:100%;
+}
+@keyframes slide_show_slide_in2_link_6{
+	0%{
+		left: -100%;
+	}
+
+	13.33%{
+		left: -100%;
+	}
+
+	16.66%{
+		left: -200%;
+	}
+
+	30%{
+		left: -200%;
+	}
+
+	33.33%{
+		left: -300%;
+	}
+
+	46.66%{
+		left: -300%;
+	}
+
+	50%{
+		left: -400%;
+	}
+
+	63.33%{
+		left: -400%;
+	}
+
+	66.66%{
+		left: -500%;
+	}
+
+	80%{
+		left: -500%;
+	}
+
+	83.33%{
+		left: -600%;
+	}
+
+	96.66%{
+		left: -600%;
+	}
+
+	100%{
+		left: -700%;
+	}
+}
