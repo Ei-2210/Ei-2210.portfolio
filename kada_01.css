@@ -19,15 +19,29 @@
 
   body{
     /* 背景色指定 */
- background-color:#cdf3f8;
+ background-color:#9cb1cd;
  color:#cccccc;
  }
 
+ header{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #494949;
+  align-items: center;
+ }
+
+ .title{
+  font-family: 'cursive';
+  margin-left: auto;
+  margin-right: auto;
+}
+
  div.imgt {
-    position:absolute;
-    top:4em;
-    left:20em;
-    padding: 0px;
+  position:absolute;
+  top:2em;
+  left:20em;
+  padding: 0px;
  }
  img.example {
   margin: 20px;
@@ -35,31 +49,26 @@
 
 
  p.title {
-     font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
-     color: #4e7ca1;
-     font-size:4em;
-     line-height:80%;
-     margin: 0px;
+  font-family: 'cursive';
+  color: #9ab4d0;
+  font-size:4em;
+  line-height:80%;
+  margin: 0px;
  }
 
- /*画像*/
- div.gaz{
-  position:absolute;
-  top: 12em;
-  left: 19em;
-}
 
+ 
  div.menu {
-     position:absolute;
-     top:6em;
-     left:2em;
-     border:1px solid;
-     padding:10px;
-     font-size: 2em;
-     line-height:120%;
-     font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
-     color:#0fdd79;
-     background-color:rgb(230, 98, 98);
+  position:absolute;
+  top:4.5em;
+  left:2em;
+  border:1px solid;
+  padding:10px;
+  font-size: 2em;
+  line-height:120%;
+  font-family: 'cursive';
+  color:#000000;
+  background-color:rgb(147, 209, 152);
  }
 
 /*リンク色*/
@@ -69,14 +78,14 @@
 }
 .a1,
 .a1:visited {
-    color: rgb(180, 180, 180)
+color: rgb(134, 153, 195)
 }
 
 /*スライド*/
 
 div.slide_show_slide_in2_link_6{
   position:absolute;
-  top: 12em;
+  top: 9em;
   left: 19em;
 
 }
@@ -95,7 +104,7 @@ div.slide_show_slide_in2_link_6{
   
 	width: 100%;
 	top: 0;
-	animation: slide_show_slide_in2_link_6 36s infinite;
+	animation: slide_show_slide_in2_link_6 25s infinite;
 }
 .slide_show_slide_in2_link_6_2{
 	position: absolute;
@@ -181,3 +190,40 @@ div.slide_show_slide_in2_link_6{
 		left: -700%;
 	}
 }
+
+
+/*フッター*/
+footer {
+  margin-top: 36em;
+  padding-top: 0px;
+  background-color: #000000;
+  color: rgb(157, 157, 157);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+footer h2 {
+  font-weight: normal;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer nav {
+  flex: 1;
+}
+footer nav ul {
+  list-style: none;
+  display: flex;
+}
+footer nav ul li {
+  padding: 0 1rem;
+}
+footer .clog {
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+
