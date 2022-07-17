@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    margin: 0; /* 外部余白のリセット */
+    padding: 0; /* 内部余白のリセット */
+    box-sizing: border-box; /* widthやheightなどのサイズ指定をボーダーを含んだサイズで指定できるように変更 */
+  }
+  
+    /* Webページ全体の設定を記載 */
+:root { /* htmlを指定した場合と同じような意味合いです */
+    /* 書体の設定 */
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    /* 日本語の字詰を自動カーニングするように設定 */
+    font-feature-settings: "palt";
+    /* 標準の文字サイズを指定 */
+    font-size: 16pt;
+  }
+
+  header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    align-items: center;
+   }
+  
+   header .cplog h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    flex: 1;
+    padding-left: 1rem;
+    margin-top: 3em;
+    margin-left: 4em;
+    color: #505050;
+  }
+  
+  header .cplog nav ul {
+    display: flex;
+    font-size: 15px;
+  }
+  
+  header .cplog nav ul li {
+    list-style: none;
+    padding: 1rem 1rem;
+    margin-left: 5em;
+  }
+
+  nav{
+    text-align: center;
+    }
+    nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav li{
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 90px;
+    }
+    
+    nav a{
+    text-decoration: none;
+    color: #333;
+    }
+    
+    nav a:hover{
+    border-bottom:2px solid #000000;
+    }
+
+    nav{
+        margin-left: 34em;
+    }
+.a1 head{
+    text-decoration: none;
+  }
+  .a1,
+  .a1:visited {
+  color: rgb(134, 153, 195)
+  }
+
+img{
+    margin-top: 7em;
+}
+img{
+    width: 1450px;
+    height: auto;
+}
+
+
+  
+footer {
+    border-top: solid 1px lightgray;
+    padding-bottom: 10px;
+  }
+  
+footer ul {
+    text-align: center;
+  }
+  
+footer ul li {
+    padding: 20px;
+    display: inline;
+    display: flex;
+  font-size: 15px;
+  }
+  
+footer ul {
+
+    margin-left:1em ;
+}
+footer p {
+    text-align: center;
+  }
+  
+  

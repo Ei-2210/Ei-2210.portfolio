@@ -1,0 +1,32 @@
+/* 全ての要素を対象とする */
+*, *::before, *::after {
+    margin: 0; /* 外部余白のリセット */
+    padding: 0; /* 内部余白のリセット */
+    box-sizing: border-box; /* widthやheightなどのサイズ指定をボーダーを含んだサイズで指定できるように変更 */
+  }
+  
+    /* Webページ全体の設定を記載 */
+:root { /* htmlを指定した場合と同じような意味合いです */
+    /* 書体の設定 */
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    /* 日本語の字詰を自動カーニングするように設定 */
+    font-feature-settings: "palt";
+    /* 標準の文字サイズを指定 */
+    font-size: 16pt;
+  }
+
+
+
+
+body{
+    /* 背景色指定 */
+ background-color:#ffffff;
+ color:#ff0000;
+ }
+
+ 
+div{
+    font-family: 'cursive';
+    margin-left: auto;
+    margin-right: auto;
+  }
