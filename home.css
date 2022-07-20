@@ -15,11 +15,11 @@
   }
 
   .cplog {
-    width: 1200px;
+    width: 1000px;
     height: 1000px;
     max-width: 100%;
     margin: 0 auto;
-    background-color: antiquewhite;
+    
   }
   
   header .cplog{
@@ -44,6 +44,7 @@
     list-style: none;
     padding: 1rem 1rem;
     margin-top: 70px;
+    padding-right: 2em;
   }
   .a1 head{
     text-decoration: none;
@@ -62,16 +63,21 @@
     }
 
     .ab{
-      width: 1200px;
+      width:1000px;
       height: 60px;
       max-width: 100%;
       margin: 0 auto;
-      background-color: rgb(132, 75, 0);
+     
+      font-size: 40px;
+      font-weight: 150;
+      padding: 1% 0;
+      margin-top: 20px;
+      text-align: center;
     }
 /*namu*/
     .flex {
     display: flex; /*横並び*/
-    width: 1200px;
+    width: 1000px;
     height: 1000px;
     max-width: 100%;
     margin: 0 auto;
@@ -79,13 +85,14 @@
     .flex{
     align-items: center;
     height: 100px;
-    margin-top: 7em;
+    margin-top: 3em;
+    padding-left: 5rem;
     }
 
     .flex .image {
       width: 150px;/*画像サイズ指定*/
       height: 150px;
-      margin: 0;
+      margin-left: 1rem;
       padding: 0;
       overflow: hidden;
       position: relative;
@@ -93,39 +100,97 @@
     .flex .right {
       margin: 0 0 0 20px;
       padding: 0;
-      
+
     }
     .flex .title {
       margin: 0;
       padding: 0;
       font-weight: 0;
       margin-left: 10px;
-      font-size: 18px;
+      font-size: 25px;
         
     }
     .flex .text {
-      margin: 1px 0 0;
+      margin: 40px 0 0;
       padding: 0;
-
+      margin-left: 10px;
+      font-size: 18px;
+      font-family: "ヒラギノ明朝 ProN";
     }
     
-
+.ski{
+  margin-top: 5em;
+  padding-left: 5px;
+  border-left: 3px solid #333333;
+  border-bottom: 1px solid #333333;
+  font-size: 20px;
+  font-family: "ヒラギノ明朝 ProN";
+}
+.ski_bt{
+  display: inline-block;
+  margin-top: 1em;
+  padding: .1em 0.5em;
+  color: #ffffff;
+  background-color: #333333;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.ski {
+  width: 750px;
+  height: 28px;
+  max-width: 100%;
+  margin: 0 auto;
   
+  margin-top: 35px;
+  
+}
+
+/*foto*/
+
+.foto{
+  width:1000px;
+  height: 60px;
+  max-width: 100%;
+  margin: 0 auto;
+     
+  font-size: 40px;
+  font-weight: 150;
+  padding: 1% 0;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.jpg{
+  display: flex; /*横並び*/
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 100px;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+.jpg img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
 
 
 /*フッター*/
 .footer01{
-  width: 1200px;
+  width: 1000px;
   max-width: 100%;
   margin: 0 auto;
-  background-color: antiquewhite;
+  
 
 }
 .footer01 {
-    color: #bd2323;
-    background: #b41a1a;
+    
     padding: 30px;
-    margin-top: 30em;
+    margin-top: 20em;
    }
    .footer01 a {
     color: #000000;
@@ -141,6 +206,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 0;
+    padding-left: 1rem;
     
    }
    .footer01 .menu li {
