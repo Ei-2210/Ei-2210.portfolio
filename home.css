@@ -14,18 +14,11 @@
     font-size: 16pt;
   }
 
-  .cplog {
-    width: 1000px;
-    height: 1000px;
-    max-width: 100%;
-    margin: 0 auto;
-    
-  }
   
   header .cplog{
     display: flex;
-    align-items: center;
-    height: 100px;
+    align-items: start;
+    height: 850px;
   }
   
   header .cplog h1 {
@@ -33,6 +26,9 @@
     font-size: 2.5rem;
     flex: 1;
     padding-left: 1rem;
+    color: rgb(220, 220, 220);
+    margin-top: 20px;
+    font-weight: 150;
   }
   
   header .cplog nav ul {
@@ -43,15 +39,17 @@
   header .cplog nav ul li {
     list-style: none;
     padding: 1rem 1rem;
-    margin-top: 70px;
+    margin-top: 37px;
     padding-right: 2em;
   }
+
+
   .a1 head{
     text-decoration: none;
   }
   .a1,
   .a1:visited {
-  color: rgb(0, 0, 0)
+  color: rgb(220, 220, 220);
   }
   nav a{
     text-decoration: none;
@@ -62,6 +60,15 @@
     border-bottom:2px solid #000000;
     }
 
+
+  header{
+    background-image: url("img/IMG_4701.jpeg");
+    background-size: cover;
+    background-position: center center;
+    
+  }
+
+  
     .ab{
       width:1000px;
       height: 60px;
@@ -71,7 +78,7 @@
       font-size: 40px;
       font-weight: 150;
       padding: 1% 0;
-      margin-top: 20px;
+      margin-top: 7rem;
       text-align: center;
     }
 /*namu*/
@@ -215,3 +222,5 @@
     font-size: 15px;
    }
   
+
+   
