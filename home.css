@@ -183,8 +183,131 @@
   object-fit: cover;
 }
 
+/*works*/
 
+.works{
+  width:1000px;
+  height: 60px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 150;
+  padding: 1% 0;
+  margin-top: 7rem;
+  text-align: center;
 
+}
+
+/*worksスライド*/
+
+.slide_show_slide_in2_link_6{
+  position:absolute;
+  top: 3rem;
+  margin: auto;
+
+}
+/*画像大きさ*/
+.slide_show_slide_in2_link_6{
+	position: relative;
+	overflow: hidden;
+	width: 60%;
+}
+.slide_show_slide_in2_link_6:before{
+	content: "";
+	display: block;
+	padding-top: 66%;
+}
+.slide_show_slide_in2_link_6_1{
+	position: absolute;
+ 
+	width: 100%;
+	top: 0;
+	animation: slide_show_slide_in2_link_6 25s infinite;
+}
+.slide_show_slide_in2_link_6_2{
+	position: absolute;
+	width: 100%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(1){
+	left: 0%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(2){
+	left: 100%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(3){
+	left: 200%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(4){
+	left: 300%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(5){
+	left: 400%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(6){
+	left: 500%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(7){
+	left: 600%;
+}
+.slide_show_slide_in2_link_6_2:nth-of-type(8){
+	left: 700%;
+}
+.slide_show_slide_in2_link_6_2 img{
+	width:100%;
+}
+@keyframes slide_show_slide_in2_link_6{
+	0%{
+		left: -100%;
+	}
+
+	13.33%{
+		left: -100%;
+	}
+
+	16.66%{
+		left: -200%;
+	}
+
+	30%{
+		left: -200%;
+	}
+
+	33.33%{
+		left: -300%;
+	}
+
+	46.66%{
+		left: -300%;
+	}
+
+	50%{
+		left: -400%;
+	}
+
+	63.33%{
+		left: -400%;
+	}
+
+	66.66%{
+		left: -500%;
+	}
+
+	80%{
+		left: -500%;
+	}
+
+	83.33%{
+		left: -600%;
+	}
+
+	96.66%{
+		left: -600%;
+	}
+
+	100%{
+		left: -700%;
+	}
+}
 
 /*フッター*/
 .footer01{
