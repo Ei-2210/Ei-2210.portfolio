@@ -16,6 +16,7 @@
 
 
 
+
   header .cplog{
     display: flex;
     align-items: start;
@@ -27,7 +28,7 @@
     font-size: 2.5rem;
     flex: 1;
     padding-left: 1rem;
-    color: rgb(220, 220, 220);
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     font-weight: 150;
   }
@@ -50,7 +51,7 @@
   }
   .a1,
   .a1:visited {
-  color: rgb(220, 220, 220);
+  color: rgb(0, 0, 0);
   }
   nav a{
     text-decoration: none;
@@ -62,11 +63,34 @@
     }
 
 
+
+/*topbt*/
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    opacity: 0.6;
+    border-radius: 50%;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    color: #000000;
+  }
+  
 /*maya*/
 
 .maya01{
     align-items: center;
-    margin-top: 6em;
+    margin-top: 3em;
     text-align: center;
 
 }
@@ -122,3 +146,33 @@
     margin: 0 auto;
     margin-top: 50px;
   }
+
+  .maya02{
+    align-items: center;
+    margin-top: 6em;
+    text-align: center;
+
+}
+
+.mayatop h2{
+    font-weight: normal;
+    font-size: 50px;
+    flex: 1;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-weight: 150;
+    text-align: center;
+}
+
+
+.Illustrator h2{
+    font-weight: normal;
+    font-size: 50px;
+    flex: 1;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    margin-top: 90px;
+    font-weight: 150;
+    text-align: center;
+}
