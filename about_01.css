@@ -14,10 +14,12 @@
     font-size: 16pt;
   }
 
+
+
   header .cplog{
     display: flex;
     align-items: start;
-    height: 850px;
+    height: 100px;
   }
   
   header .cplog h1 {
@@ -58,3 +60,65 @@
     nav a:hover{
     border-bottom:2px solid #000000;
     }
+
+
+/*maya*/
+
+.maya01{
+    align-items: center;
+    margin-top: 6em;
+    text-align: center;
+
+}
+.ski{
+    padding-left: 5px;
+    border-left: 3px solid #333333;
+    border-bottom: 1px solid #333333;
+    font-size: 20px;
+    font-family: "ヒラギノ明朝 ProN";
+  }
+  .ski_bt{
+    margin-top: 1em;
+    color: #000000;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .ski {
+    width: 700px;
+    height: 28px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+
+
+  .ski02{
+    padding-left: 5px;
+    border-left: 3px solid #333333;
+    border-bottom: 1px solid #333333;
+    font-size: 20px;
+    font-family: "ヒラギノ明朝 ProN";
+  }
+  .ski02 {
+    width: 700px;
+    height: 28px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+
+  .ski03{
+    padding-left: 5px;
+    border-left: 3px solid #333333;
+    border-bottom: 1px solid #333333;
+    font-size: 20px;
+    font-family: "ヒラギノ明朝 ProN";
+  }
+  .ski03 {
+    width: 700px;
+    height: 28px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }

@@ -1,63 +1,115 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="kada_01.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.js">
+    
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/6-2-5.css">
+    
 </head>
 <body>
+    <body background="img/bak_01.jpeg">
+    </body>
     <header>
-    
-        <h1 class="title">Portfolio</h1>      
-        
+        <div class="cplog">
+          <h1>Portfolio</h1>
+          <nav>
+            <ul>
+                <li><a class="a1" href="#about">ABOUT</a></li>
+                <li><a class="a1" href="#gallery">Gallery</a></li>
+                <li><a class="a1" href="#works">WORKS</a></li>
+                <li><a class="a1" href="https://docs.google.com/forms/d/e/1FAIpQLSf9pL7Pg-tyLz8xgNITSdenj_xt2_xMPLUdsnV9WZ5hZc2iSA/viewform?usp=sf_link">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
     </header>
+    
 
-    <div class="menu">
-        <ul><a href="about.html" class="a1">about</a></ul>
-        <ul><a href="#" class="a1">WORKS</a></ul>
-        <ul><a href="#" class="a1">CONTACT</a></ul>
-       
+    <div id="about">
+        <h2 class="ab">ABOUT</h2>
     </div>
-
-
-    <div class="slide_show_slide_in2_link_6">
-
-        <div class="slide_show_slide_in2_link_6_1">
-    
-            <a href="demo6.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- ◆写真6 -->
-    
-            <a href="demo1.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- 写真1 -->
-    
-            <a href="demo2.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- 写真2 -->
-    
-            <a href="demo3.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- 写真3 -->
-    
-            <a href="demo4.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- 写真4 -->
-    
-            <a href="demo5.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0320.jpg"></a><!-- 写真5 -->
-    
-            <a href="demo6.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- 写真6 -->
-    
-            <a href="demo1.html" class="slide_show_slide_in2_link_6_2"><img src="_EIT0406.jpg"></a><!-- ◆写真1 -->
+    <div class="flex">
+        <figure class="image"><img src="img/eito.jpg" width="150px" height="150px"></figure>
+        <div class="right">
+          <p class="title">Eito Suzuki 鈴木瑛人</p>
+          <p class="text">愛知県で育ち、高校卒業後は愛知工業大学に入学。<br>まだ見たことのないの幻想的風景を写真に収める活動をしています。<br>卒業後は世界のあらゆる景色を写真に収める活動をしていきたいと思います。</p>
         </div>
     </div>
+   
+    <section class="ski">
+        <h3 class="ski01">Skill</h3>
+        <div>
+            <p class="ski_bt">Illustrator</p>
+            <p class="ski_bt">Photoshop</p>
+            <p class="ski_bt">Lightroom</p>
+            <p class="ski_bt">Maya</p>
+            <p class="ski_bt">Still</p>
+            <p class="ski_bt">Movie</p>
+        </div>
+    </section>
+
+    <div id="gallery">
+        <ul class="gallery">
+            <li><img src="img/IMG_2194.jpg" alt=""></li>
+            <li><img src="img/IMG_2194.jpg" alt=""></li>
+            <li><img src="img/IMG_2194.jpg" alt=""></li>
+            </ul>
+            <ul class="choice-btn">
+            <li><img src="img/IMG_2194.jpg" alt=""></li>
+            <li><img src="img/IMG_2194.jpg" alt=""></li>
+            <li><img src="img/IMG_2194.jpg" alt=""></li>
+            </ul>
+            
+    </div>
+
+    <div id="works">
+        <h3 class="works">WORKS</h3>
+        <div class="slide_show_slide_in2_link_6">
+            <div class="slide_show_slide_in2_link_6_1">
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- ◆写真6 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- 写真1 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- 写真2 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- 写真3 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- 写真4 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- 写真5 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- 写真6 -->
+        
+                <a href="about.html" class="slide_show_slide_in2_link_6_2"><img src="img/IMG_2194.jpg"></a><!-- ◆写真1 -->
+            </div>
+        </div>
+
+    </div>
     
-    <footer>
-        <h2>Company Logo</h2>
-        <nav>
-          <ul>
-            <li>LINK</li>
-            <li>LINK</li>
-            <li>LINK</li>
-            <li>LINK</li>
-            <li>LINK</li>
-            <li>LINK</li>
-          </ul>
-        </nav>
-        <p class="clog">(c) 2022- Company Logo</p>
-      </footer>
+
+
+    <div class="footer01">
+        <ul class="menu">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="about.html">WORKS</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9pL7Pg-tyLz8xgNITSdenj_xt2_xMPLUdsnV9WZ5hZc2iSA/viewform?usp=sf_link">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <!--自作のJS-->
+      <script src="js/6-2-5.js"></script>
 </body>
 </html>

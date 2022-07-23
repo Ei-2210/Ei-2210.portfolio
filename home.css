@@ -81,6 +81,30 @@
       margin-top: 7rem;
       text-align: center;
     }
+/*topbt*/
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+}
+
+
+
 /*namu*/
     .flex {
     display: flex; /*横並び*/
@@ -210,7 +234,7 @@
 .slide_show_slide_in2_link_6{
 	position: relative;
 	overflow: hidden;
-	width: 60%;
+	width: 800px;
 }
 .slide_show_slide_in2_link_6:before{
 	content: "";

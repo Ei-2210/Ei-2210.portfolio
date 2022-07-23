@@ -1,227 +1,251 @@
-/* 全ての要素を対象とする */
 *, *::before, *::after {
-    margin: 0; /* 外部余白のリセット */
-    padding: 0; /* 内部余白のリセット */
-    box-sizing: border-box; /* widthやheightなどのサイズ指定をボーダーを含んだサイズで指定できるように変更 */
-  }
-  
-    /* Webページ全体の設定を記載 */
-:root { /* htmlを指定した場合と同じような意味合いです */
-    /* 書体の設定 */
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-    /* 日本語の字詰を自動カーニングするように設定 */
-    font-feature-settings: "palt";
-    /* 標準の文字サイズを指定 */
-    font-size: 16pt;
-  }
-
-
-
-  body{
-    /* 背景色指定 */
- background-color:#9cb1cd;
- color:#cccccc;
- }
-
- header{
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: #494949;
-  align-items: center;
- }
-
- .title{
-  font-family: 'cursive';
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0; /* 外部余白のリセット */
+  padding: 0; /* 内部余白のリセット */
+  box-sizing: border-box; /* widthやheightなどのサイズ指定をボーダーを含んだサイズで指定できるように変更 */
 }
 
- div.imgt {
-  position:absolute;
-  top:2em;
-  left:20em;
-  padding: 0px;
- }
- img.example {
-  margin: 20px;
-  }
+  /* Webページ全体の設定を記載 */
+:root { /* htmlを指定した場合と同じような意味合いです */
+  /* 書体の設定 */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  /* 日本語の字詰を自動カーニングするように設定 */
+  font-feature-settings: "palt";
+  /* 標準の文字サイズを指定 */
+  font-size: 16pt;
+}
 
 
- p.title {
-  font-family: 'cursive';
-  color: #9ab4d0;
-  font-size:4em;
-  line-height:80%;
-  margin: 0px;
- }
+header .cplog{
+  display: flex;
+  align-items: start;
+  height: 850px;
+}
+
+header .cplog h1 {
+  font-weight: normal;
+  font-size: 2.5rem;
+  flex: 1;
+  padding-left: 1rem;
+  color: rgb(220, 220, 220);
+  margin-top: 20px;
+  font-weight: 150;
+}
+
+header .cplog nav ul {
+  display: flex;
+  font-size: 15px;
+}
+
+header .cplog nav ul li {
+  list-style: none;
+  padding: 1rem 1rem;
+  margin-top: 37px;
+  padding-right: 2em;
+}
 
 
- 
- div.menu {
-  position:absolute;
-  top:4.5em;
-  left:2em;
-  padding:10px;
-  font-size: 2em;
-  line-height:120%;
-  font-family: 'cursive';
-  background-color:rgb(147, 209, 152);
- }
-
-/*リンク色*/
-
-.a1 {
+.a1 head{
   text-decoration: none;
 }
 .a1,
 .a1:visited {
-color: rgb(134, 153, 195)
+color: rgb(220, 220, 220);
 }
-
-/*スライド*/
-
-div.slide_show_slide_in2_link_6{
-  position:absolute;
-  top: 9em;
-  left: 19em;
-
-}
-.slide_show_slide_in2_link_6{
-	position: relative;
-	overflow: hidden;
-	width: 65%;
-}
-.slide_show_slide_in2_link_6:before{
-	content: "";
-	display: block;
-	padding-top: 66%;
-}
-.slide_show_slide_in2_link_6_1{
-	position: absolute;
+nav a{
+  text-decoration: none;
+  color: #333;
+  }
   
+  nav a:hover{
+  border-bottom:2px solid #000000;
+  }
+
+
+header{
+  background-image: url("img/IMG_4701.jpeg");
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+
+  .ab{
+    width:1000px;
+    height: 60px;
+    max-width: 100%;
+    margin: 0 auto;
+   
+    font-size: 40px;
+    font-weight: 150;
+    padding: 1% 0;
+    margin-top: 7rem;
+    text-align: center;
+  }
+/*namu*/
+  .flex {
+  display: flex; /*横並び*/
+  width: 1000px;
+  height: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  }
+  .flex{
+  align-items: center;
+  height: 100px;
+  margin-top: 3em;
+  padding-left: 5rem;
+  }
+
+  .flex .image {
+    width: 150px;/*画像サイズ指定*/
+    height: 150px;
+    margin-left: 1rem;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .flex .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+
+  }
+  .flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: 0;
+    margin-left: 10px;
+    font-size: 25px;
+      
+  }
+  .flex .text {
+    margin: 40px 0 0;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "ヒラギノ明朝 ProN";
+  }
+  
+.ski{
+margin-top: 5em;
+padding-left: 5px;
+border-left: 3px solid #333333;
+border-bottom: 1px solid #333333;
+font-size: 20px;
+font-family: "ヒラギノ明朝 ProN";
+}
+.ski_bt{
+display: inline-block;
+margin-top: 1em;
+padding: .1em 0.5em;
+color: #ffffff;
+background-color: #333333;
+font-size: 15px;
+border-radius: 10px;
+}
+.ski {
+width: 750px;
+height: 28px;
+max-width: 100%;
+margin: 0 auto;
+
+margin-top: 35px;
+
+}
+
+/*foto*/
+img{
 	width: 100%;
-	top: 0;
-	animation: slide_show_slide_in2_link_6 25s infinite;
+	height: auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
 }
-.slide_show_slide_in2_link_6_2{
-	position: absolute;
-	width: 100%;
+
+/*メイン画像下に余白をつける*/
+.gallery{
+	margin:0 0 5px 0;
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(1){
-	left: 0%;
+
+.gallery li{
+list-style:none;
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(2){
-	left: 100%;
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+    position: absolute;/*絶対配置にする*/
+	z-index: 3;
+    top: 42%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #ccc;/*矢印の色*/
+    border-right: 2px solid #ccc;/*矢印の色*/
+    height: 25px;
+    width: 25px;
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(3){
-	left: 200%;
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left:2.5%;
+    transform: rotate(-135deg);
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(4){
-	left: 300%;
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right:2.5%;
+    transform: rotate(45deg);
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(5){
-	left: 400%;
+
+/*選択するサムネイル画像の設定*/
+
+.choice-btn li{
+	cursor: pointer;
+	outline: none;
+	background:#333;
+list-style:none;
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(6){
-	left: 500%;
+
+.choice-btn li img{
+	opacity: 0.4;/*選択されていないものは透過40%*/
 }
-.slide_show_slide_in2_link_6_2:nth-of-type(7){
-	left: 600%;
-}
-.slide_show_slide_in2_link_6_2:nth-of-type(8){
-	left: 700%;
-}
-.slide_show_slide_in2_link_6_2 img{
-	width:100%;
-}
-@keyframes slide_show_slide_in2_link_6{
-	0%{
-		left: -100%;
-	}
 
-	13.33%{
-		left: -100%;
-	}
-
-	16.66%{
-		left: -200%;
-	}
-
-	30%{
-		left: -200%;
-	}
-
-	33.33%{
-		left: -300%;
-	}
-
-	46.66%{
-		left: -300%;
-	}
-
-	50%{
-		left: -400%;
-	}
-
-	63.33%{
-		left: -400%;
-	}
-
-	66.66%{
-		left: -500%;
-	}
-
-	80%{
-		left: -500%;
-	}
-
-	83.33%{
-		left: -600%;
-	}
-
-	96.66%{
-		left: -600%;
-	}
-
-	100%{
-		left: -700%;
-	}
+.choice-btn li.slick-current img{
+	opacity: 1;/*選択されているものは透過しない*/
 }
 
 
 /*フッター*/
-footer {
-  margin-top: 36em;
-  padding-top: 0px;
-  background-color: #000000;
-  color: rgb(157, 157, 157);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 200px;
+.footer01{
+width: 1000px;
+max-width: 100%;
+margin: 0 auto;
+
+
 }
-footer h2 {
-  font-weight: normal;
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 20px;
-}
-footer nav {
-  flex: 1;
-}
-footer nav ul {
+.footer01 {
+  
+  padding: 30px;
+  margin-top: 20em;
+ }
+ .footer01 a {
+  color: #000000;
+  text-decoration: none;
+ }
+ .footer01 a:hover {
+  text-decoration: underline;
+ }
+ .footer01 .menu {
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
-}
-footer nav ul li {
-  padding: 0 1rem;
-}
-footer .clog {
-  font-size: 0.75rem;
-  text-align: center;
-  margin: 0.5rem;
-}
+  flex-wrap: wrap;
+  margin-left: 0;
+  padding-left: 1rem;
+  
+ }
+ .footer01 .menu li {
+  margin: 1px;
+  padding: 0 20px 0 0;
+  font-size: 15px;
+ }
 
 
+ 
