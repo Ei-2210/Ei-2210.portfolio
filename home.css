@@ -443,6 +443,7 @@
     text-decoration: none;
     padding: 9px 15px 10px 0;
     position: relative;
+    text-align: center;
 }
 .menu-content ul li a::before {
     content: "";
